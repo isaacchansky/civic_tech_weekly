@@ -1,0 +1,35 @@
+<section class="hero">
+  <div class="container hero-content">
+    <h1 class="hero-title">{{site.title}}</h1>
+    <p class="hero-subtitle">{{site.tagline}}</p>
+     <form action="https://tinyletter.com/civictechweekly"
+            method="post"
+            target="popupwindow"
+            onsubmit="window.open('https://tinyletter.com/civictechweekly', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+        <label class="u-visually-hidden" for="tlemail">Enter your email address</label>
+        <p><input type="text" name="email" id="tlemail" placeholder="you@email.com"/></p>
+        <input type="hidden" value="1" name="embed"/>
+        <input class="btn btn--large btn--dark"
+                type="submit"
+                value="Get weekly emails" />
+        <br>
+        <small><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></small>
+    </form>
+
+  </div>
+
+  <div class="hero-secondary">
+      <a href="http://twitter.com/civictechweekly" target="_blank">
+          <svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" id="svg2" xml:space="preserve" version="1.1" viewBox="0 0 182.66667 150.66667"><g id="g10" transform="matrix(1.3333 0 0 -1.3333 0 150.67)"><g id="g12" transform="scale(.1)"><g id="g14"><g id="g16" clip-path="url(#clipPath20)"><path id="path22" d="m1366.9 989.39c-50.27-22.309-104.33-37.387-161.05-44.18 57.89 34.723 102.34 89.679 123.28 155.15-54.18-32.15-114.18-55.47-178.09-68.04-51.13 54.49-124.02 88.55-204.68 88.55-154.89 0-280.43-125.55-280.43-280.43 0-21.988 2.457-43.398 7.258-63.91-233.08 11.68-439.72 123.36-578.04 293.01-24.141-41.4-37.969-89.567-37.969-140.97 0-97.308 49.489-183.13 124.76-233.44-45.969 1.437-89.218 14.058-127.03 35.078-0.043-1.18-0.043-2.348-0.043-3.52 0-135.9 96.68-249.22 224.96-275-23.512-6.41-48.281-9.8-73.86-9.8-18.089 0-35.628 1.711-52.781 5 35.711-111.41 139.26-192.5 262-194.77-96.058-75.23-216.96-120.04-348.36-120.04-22.621 0-44.961 1.332-66.918 3.91 124.16-79.568 271.55-125.98 429.94-125.98 515.82 0 797.86 427.31 797.86 797.93 0 12.153-0.28 24.223-0.79 36.25 54.77 39.571 102.31 88.95 139.93 145.2"/></g></g></g></g></svg>
+      </a>
+      <a href="/atom.xml" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+            <g>
+                <path d="M68.148,375.465c-37.598,0-68.147,30.667-68.147,68.038c0,37.577,30.55,67.901,68.147,67.901   c37.733,0,68.247-30.324,68.247-67.901C136.394,406.132,105.882,375.465,68.148,375.465z"/>
+                <path d="M0.078,173.965v98.129c63.892,0,123.979,24.986,169.229,70.255c45.192,45.16,70.141,105.518,70.141,169.651h98.561   C338.008,325.59,186.368,173.965,0.078,173.965z"/>
+                <path d="M0.195,0v98.178c227.89,0,413.379,185.668,413.379,413.822H512C512,229.765,282.373,0,0.195,0z"/>
+            </g>
+            </svg>
+      </a>
+  </div>
+</section>

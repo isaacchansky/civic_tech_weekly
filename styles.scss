@@ -1,0 +1,27 @@
+---
+# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
+# only main files contain this front matter, not partials.
+---
+
+// Colors
+
+$black: #333333;
+$grey: #9D9E96;
+$white: #FFFFFE;
+$primary: #E3B728;
+$primary-dark: #B59220;
+$headline-type: "Volkhov", "serif";
+$body-type: "Merriweather Sans", "georgia", "sans-serif";
+
+@import "base";
+@import "type";
+@import "syntax";
+@import "code";
+@import "layout";
+@import "masthead";
+@import "posts";
+@import "pagination";
+@import "btn";
+@import "message";
+@import "hero";
+@import "form";

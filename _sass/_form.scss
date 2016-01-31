@@ -1,0 +1,24 @@
+form {
+    p {
+        margin-bottom: 0.5em;
+    }
+    label {
+        font-style: normal;
+    }
+    input:not([type="submit"]):not([type="hidden"]) {
+        font-size: 1em;
+        padding: 0.5em 0.75em;
+        min-width: 10em;
+        width: 80%;
+        max-width: 14em;
+        border: 2px solid $primary-dark;
+        border-radius: 4px;
+    }
+    small {
+        text-align: right;
+    }
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}

@@ -1,0 +1,22 @@
+<header class="masthead">
+    <div class="container">
+        <h3 class="masthead-title">
+          <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+          <p>{{ site.tagline }}</p>
+        </h3>
+        <form action="https://tinyletter.com/civictechweekly"
+            method="post"
+            target="popupwindow"
+            class="masthead-form"
+            onsubmit="window.open('https://tinyletter.com/civictechweekly', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+            <label class="u-visually-hidden" for="tlemail">Enter your email address</label>
+            <p><input type="text" name="email" id="tlemail" placeholder="you@email.com"/></p>
+            <input type="hidden" value="1" name="embed"/>
+            <input class="btn btn--dark"
+                    type="submit"
+                    value="Get weekly emails" />
+            <br>
+            <small><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></small>
+        </form>
+    </div>
+</header>
