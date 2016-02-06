@@ -6,7 +6,7 @@ permalink:           pretty
 # Setup
 title:               Civic Tech Weekly
 tagline:             Your weekly dose of Civic Technology news.
-url:                 http://getpoole.com
+url:                 http://civic-tech-weekly.com
 paginate:            2
 baseurl:             ""
 gems:                [jekyll-paginate]
@@ -19,11 +19,6 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Civic Tech Weekly
+  url:               https://twitter.com/civictechweekly
 
-# Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/poole/poole
