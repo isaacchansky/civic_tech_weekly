@@ -104,7 +104,8 @@ a:not(.pagination-item):not(.btn) {
     background-size: 100% 0.1em;
     background-position: 0% 96%, 100% 90%, 0% 90%;
 
-    .hero & {
+    .hero &,
+    .masthead & {
       text-shadow: .03em 0 $primary, -.03em 0 $primary, 0 .03em $primary, 0 -.03em $primary, .06em 0 $primary, -.06em 0 $primary, .09em 0 $primary, -.09em 0 $primary, .12em 0 $primary, -.12em 0 $primary;
     }
   }
